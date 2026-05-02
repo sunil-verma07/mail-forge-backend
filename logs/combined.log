@@ -1,0 +1,114 @@
+[2026-05-02 19:35:42] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 19:35:42] INFO: 📧 SMTP configured for: NOT SET
+[2026-05-02 19:35:42] INFO: 🌍 Environment: development
+[2026-05-02 19:36:09] ERROR: SMTP connection failed:
+[2026-05-02 19:36:09] INFO: ::1 - - [02/May/2026:14:06:09 +0000] "GET /api/email/health HTTP/1.1" 503 98 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 19:36:11] ERROR: SMTP connection failed:
+[2026-05-02 19:36:11] INFO: ::1 - - [02/May/2026:14:06:11 +0000] "GET /api/email/health HTTP/1.1" 503 98 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 19:37:34] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "testing"
+[2026-05-02 19:37:36] ERROR: Email send failed: Missing credentials for "PLAIN"
+Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:622:28)
+    at SMTPConnection.emit (node:events:508:28)
+    at SMTPConnection._actionEHLO (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+[2026-05-02 19:37:36] INFO: ::1 - - [02/May/2026:14:07:36 +0000] "POST /api/email/send HTTP/1.1" 500 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 19:39:22] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 19:39:22] INFO: 📧 SMTP configured for: NOT SET
+[2026-05-02 19:39:22] INFO: 🌍 Environment: development
+[2026-05-02 19:39:39] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "testing"
+[2026-05-02 19:39:40] ERROR: Email send failed: Missing credentials for "PLAIN"
+Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:622:28)
+    at SMTPConnection.emit (node:events:508:28)
+    at SMTPConnection._actionEHLO (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+[2026-05-02 19:39:40] INFO: ::1 - - [02/May/2026:14:09:40 +0000] "POST /api/email/send HTTP/1.1" 500 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 19:40:06] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 19:40:06] INFO: 📧 SMTP configured for: NOT SET
+[2026-05-02 19:40:06] INFO: 🌍 Environment: development
+[2026-05-02 19:40:10] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "testing"
+[2026-05-02 19:40:11] ERROR: Email send failed: Missing credentials for "PLAIN"
+Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection.login (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:454:38)
+    at C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:215:17)
+    at Object.onceWrapper (node:events:622:28)
+    at SMTPConnection.emit (node:events:508:28)
+    at SMTPConnection._actionEHLO (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1371:14)
+    at SMTPConnection._processResponse (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at SMTPConnection._onSocketData (C:\Users\vermadr\Downloads\email-system\email-system\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+[2026-05-02 19:40:11] INFO: ::1 - - [02/May/2026:14:10:11 +0000] "POST /api/email/send HTTP/1.1" 500 78 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 19:42:04] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 19:42:04] INFO: 📧 SMTP configured for: NOT SET
+[2026-05-02 19:42:04] INFO: 🌍 Environment: development
+[2026-05-02 19:42:43] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 19:42:43] INFO: 📧 SMTP configured for: mesunilverma07@gmail.com
+[2026-05-02 19:42:43] INFO: 🌍 Environment: development
+[2026-05-02 19:42:54] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "testing"
+[2026-05-02 19:43:08] INFO: Email sent: <4f26639e-89bc-fb7c-5789-6571ddce105b@gmail.com> | To: sunil.verma@iitil.com | Subject: "testing"
+[2026-05-02 19:43:08] INFO: ::1 - - [02/May/2026:14:13:08 +0000] "POST /api/email/send HTTP/1.1" 200 195 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:07:51] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 20:07:51] INFO: 📧 SMTP configured for: mesunilverma07@gmail.com
+[2026-05-02 20:07:51] INFO: 🌍 Environment: development
+[2026-05-02 20:07:54] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 20:07:54] INFO: 📧 SMTP configured for: mesunilverma07@gmail.com
+[2026-05-02 20:07:54] INFO: 🌍 Environment: development
+[2026-05-02 20:08:36] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test mail"
+[2026-05-02 20:08:39] ERROR: Email send failed: ENOENT: no such file or directory, open 'C:\Users\vermadr\Downloads\email-system\email-system\backend\assets\calendar.png'
+Error: ENOENT: no such file or directory, open 'C:\Users\vermadr\Downloads\email-system\email-system\backend\assets\calendar.png'
+[2026-05-02 20:08:39] INFO: ::1 - - [02/May/2026:14:38:39 +0000] "POST /api/email/send HTTP/1.1" 500 177 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:09:11] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test mail"
+[2026-05-02 20:09:14] ERROR: Email send failed: ENOENT: no such file or directory, open 'C:\Users\vermadr\Downloads\email-system\email-system\backend\assets\calendar.png'
+Error: ENOENT: no such file or directory, open 'C:\Users\vermadr\Downloads\email-system\email-system\backend\assets\calendar.png'
+[2026-05-02 20:09:14] INFO: ::1 - - [02/May/2026:14:39:14 +0000] "POST /api/email/send HTTP/1.1" 500 177 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36"
+[2026-05-02 20:09:44] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test mail"
+[2026-05-02 20:09:51] INFO: Email sent: <fa52861d-c2e0-5a99-51a3-2a48e473edba@gmail.com> | To: sunil.verma@iitil.com | Subject: "test mail"
+[2026-05-02 20:09:51] INFO: ::1 - - [02/May/2026:14:39:51 +0000] "POST /api/email/send HTTP/1.1" 200 195 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36"
+[2026-05-02 20:29:56] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 20:29:56] INFO: 📧 SMTP configured for: mesunilverma07@gmail.com
+[2026-05-02 20:29:56] INFO: 🌍 Environment: development
+[2026-05-02 20:29:57] INFO: 🚀 Email API running on http://localhost:5000
+[2026-05-02 20:29:57] INFO: 📧 SMTP configured for: mesunilverma07@gmail.com
+[2026-05-02 20:29:57] INFO: 🌍 Environment: development
+[2026-05-02 20:35:55] INFO: SMTP connection verified successfully
+[2026-05-02 20:35:55] INFO: ::1 - - [02/May/2026:15:05:55 +0000] "GET /api/email/health HTTP/1.1" 200 93 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:35:58] INFO: SMTP connection verified successfully
+[2026-05-02 20:35:58] INFO: ::1 - - [02/May/2026:15:05:58 +0000] "GET /api/email/health HTTP/1.1" 200 93 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:35:59] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test"
+[2026-05-02 20:36:05] INFO: Email sent: <b6a6f0f9-389a-7fda-415e-d8faf039a084@gmail.com> | To: sunil.verma@iitil.com | Subject: "test"
+[2026-05-02 20:36:05] INFO: ::1 - - [02/May/2026:15:06:05 +0000] "POST /api/email/send HTTP/1.1" 200 195 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:41:06] INFO: SMTP connection verified successfully
+[2026-05-02 20:41:06] INFO: ::1 - - [02/May/2026:15:11:06 +0000] "GET /api/email/health HTTP/1.1" 200 93 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:41:08] INFO: SMTP connection verified successfully
+[2026-05-02 20:41:08] INFO: ::1 - - [02/May/2026:15:11:08 +0000] "GET /api/email/health HTTP/1.1" 200 93 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:41:23] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test mail"
+[2026-05-02 20:41:29] INFO: Email sent: <59b3083c-5d0f-64c0-5ca9-cbf311fb363a@gmail.com> | To: sunil.verma@iitil.com | Subject: "test mail"
+[2026-05-02 20:41:29] INFO: ::1 - - [02/May/2026:15:11:29 +0000] "POST /api/email/send HTTP/1.1" 200 195 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:42:48] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test"
+[2026-05-02 20:42:56] INFO: Email sent: <789ccff9-8165-e8ae-5a8c-06a0ea919427@gmail.com> | To: sunil.verma@iitil.com | Subject: "test"
+[2026-05-02 20:42:56] INFO: ::1 - - [02/May/2026:15:12:56 +0000] "POST /api/email/send HTTP/1.1" 200 195 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:45:30] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test mail"
+[2026-05-02 20:45:36] INFO: Email sent: <ddedabf8-17ad-7760-8a13-0f35e475788b@gmail.com> | To: sunil.verma@iitil.com | Subject: "test mail"
+[2026-05-02 20:45:36] INFO: ::1 - - [02/May/2026:15:15:36 +0000] "POST /api/email/send HTTP/1.1" 200 195 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:50:17] INFO: SMTP connection verified successfully
+[2026-05-02 20:50:17] INFO: ::1 - - [02/May/2026:15:20:17 +0000] "GET /api/email/health HTTP/1.1" 200 93 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:50:19] INFO: SMTP connection verified successfully
+[2026-05-02 20:50:19] INFO: ::1 - - [02/May/2026:15:20:19 +0000] "GET /api/email/health HTTP/1.1" 200 93 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+[2026-05-02 20:50:40] INFO: Send email request | From: mesunilverma07@gmail.com | To: ["sunil.verma@iitil.com"] | Subject: "test"
+[2026-05-02 20:50:45] INFO: Email sent: <1b274fc4-42ec-b558-678a-efd7067cfbb6@gmail.com> | To: sunil.verma@iitil.com | Subject: "test"
+[2026-05-02 20:50:45] INFO: ::1 - - [02/May/2026:15:20:45 +0000] "POST /api/email/send HTTP/1.1" 200 195 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
